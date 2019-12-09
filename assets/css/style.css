@@ -7,14 +7,11 @@ body {
   }
 
 
-h1{
+h1, h2{
     color: #4aaaa5;
 }
 
-h2{
-    
-    color: #4aaaa5;
-}
+
 
 h3{ 
     font-size: 18px;  
@@ -50,7 +47,11 @@ h3{
     
     
 }
-
+.navbar-nav > li{
+    margin-left:10px;
+    margin-right:10px;
+    /* border-right:2px #777777; */
+  }
 
 
 .navbar-nav {
@@ -62,17 +63,14 @@ h3{
     background-color: #ffffff; 
 } 
 
+#navborder {
+    border-right: 2px grey !important;
 
-
-
-
-
-
-
-
-
+}
 
 /* Primary Content */
+
+
 
 .primary{
     margin-top: 70px;
@@ -92,56 +90,41 @@ h3{
 img.mephoto {
 	float: left;
 	padding: 0 16px 16px 0;
-	width: 200px;
-	height: 200px;
+	height: auto;
+    max-width: 100%;
+    
 }
 
 /* Footer */
 
 footer {
-    position: fixed;
-	left: 0;
-	bottom: 0;
-    width: 100%;
-    padding-top: 18px;
-    padding-bottom:18px;
-    text-align: center;
-    font-size: 12px;
-	color: #cccccc;
-	background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    z-index: 5;
+	background: #666666;
+	border-top: 9px solid #4aaaa5;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+.footer-copyright {
+	font-size: 12px;
+	color: #cccccc;
+}
+
+
+
 
 /* Contact */
 
-
-#message{
-    height: 300px;
+.submitbtn{
+	background-color: #4aaaa5 ;
+	color: #ffffff ;
+	
 }
 
-.contact{
-    width: 500px;
-}
+form{
+    margin-bottom:200px !important;
 
-.contact input, .contact textarea{
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    border: 2px solid #cccccc;
-    margin-bottom: 24px;
-    padding: 16px;
-    font-size: 16px;
-}
-
-.contact button {
-	width: auto;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	border: none;
-	padding: 16px 32px;
-    font-size: 16px;
-    margin: 0 auto;
 }
 
 
@@ -185,5 +168,22 @@ footer {
     .navbar-nav {
         flex-direction: row;
         margin: 0 auto !important;
+        padding: 8px;
     }
-}
+   .item {
+       margin: 0 !important;
+   }
+
+
+    
+    @media (max-width: 1158px) {
+   
+       .item {
+           margin: 0 !important;
+       }
+    
+
+
+
+
+      
