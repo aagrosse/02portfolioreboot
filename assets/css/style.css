@@ -116,9 +116,9 @@ footer {
 
 /* Contact */
 
-.submitbtn{
-	background-color: #4aaaa5 ;
-	color: #ffffff ;
+.btn-info{
+	background-color: #4aaaa5 !important;
+	color: #ffffff !important;
 	
 }
 
