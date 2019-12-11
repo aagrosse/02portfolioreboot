@@ -86,8 +86,8 @@ h3{
 
 .primary h2 {
 	font-weight: bold;
-	padding-bottom: 18px;
-	margin-bottom: 13px;
+	padding-bottom: 1em;
+	margin-bottom: 0.8em;
 	border-bottom: 2px solid #dddddd;
 }
 
@@ -143,18 +143,15 @@ footer {
     position: relative;
     width: 270px;
     height: 200px;
+    margin-right: 25px;
  }
-
-.item:nth-child(even){
-    margin-left: 25px;
-}
 
 .item-name{
     position: relative;
     top: -90px;
     text-align: center;
     background-color: #4aaaa5;
-    padding: 16px;
+    padding: 1em;
     color: #ffffff;
     z-index: 4;
 } 
@@ -172,12 +169,6 @@ footer {
         margin: 0 auto !important;
         padding: 8px;
     }
-   .item {
-       margin: 0 !important;
-   }
+  
+}
 
-@media (max-width: 1158px) {
-   .item:nth-child(even){
-    margin-left: 0px;
-}
-}
