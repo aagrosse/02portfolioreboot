@@ -51,7 +51,7 @@ h3{
     margin-left:5px;
     margin-right:5px;
      
-  }
+}
 
 
 .navbar-nav {
@@ -63,17 +63,10 @@ h3{
     background-color: #ffffff; 
 } 
 
-#navborder {
-    border-right: 2px grey !important;
-
-}
-
 .border-right{
     padding-right: 20px;
 
 }
-
-
 
 
 /* Primary Content */
@@ -82,7 +75,8 @@ h3{
 
 .primary{
     margin-top: 70px;
-    margin-left:8%;
+    margin-left:7%;
+    margin-right: 7%;
 	padding: 40px;
 	background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -182,17 +176,8 @@ footer {
        margin: 0 !important;
    }
 
-
-    
-    @media (max-width: 1158px) {
-   
-       .item {
-           margin: 0 !important;
-       }
-    }
- 
-
-
-
-
-      
+@media (max-width: 1158px) {
+   .item:nth-child(even){
+    margin-left: 0px;
+}
+}
